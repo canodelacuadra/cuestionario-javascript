@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300, 600");
+
+body {
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+  color: #ce5f2e;
+  font-weight: 300;
+  text-align: center;
+  background-color: #f8f6f0;
+}
+h1 {
+  font-weight: 300;
+  margin: 0px;
+  padding: 10px;
+  font-size: 30px;
+  background-color: #ce5f2e;
+  color: #fff;
+}
+.question {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+.answers label {
+  display: block;
+  margin-bottom: 10px;
+}
+button {
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  background-color: #ce5f2e;
+  color: #fff;
+  border: 0px;
+  border-radius: 3px;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+button:hover {
+  background-color: #51232f;
+}
+
+button#submit {
+  background-color: #a1cca6;
+}
+button#submit:hover {
+  background-color: rgb(51, 170, 51);
+}
+.slide {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide {
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container {
+  position: relative;
+  height: 300px;
+  margin-top: 40px;
+}
+progress {
+  display: block; /* default: inline-block */
+  width: 100%;
+  margin: 0.5em auto;
+  padding: 4px;
+  border: 0 none;
+  background: #444;
+  border-radius: 14px;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5),
+    0px 1px 0px rgba(255, 255, 255, 0.2);
+}
+progress::-moz-progress-bar {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: inset 0 -2px 4px #51232f, 0 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+/* webkit */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  progress {
+    height: 25px;
+  }
+}
+progress::-webkit-progress-bar {
+  background: transparent;
+}
+progress::-webkit-progress-value {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: inset 0 -2px 4px #51232f, 0 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+#results {
+  background-color: #51232f;
+  color: #ece9cb;
+}
+.noticia {
+  background-color: #ce5f2e;
+}
+.retro {
+  font-size: 0.8em;
+  color: #ce5f2e;
+  font-family: "Courier New", Courier, monospace;
+}
+.retro::before {
+  font-weight: bolder;
+  content: "Feedback >> ";
+}
