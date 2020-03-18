@@ -1,0 +1,196 @@
+[
+  {
+    "question": "¿Qué elemento html permite incorporar programación con Javasscript?",
+    "answers": {
+      "a": "link",
+      "b": "source",
+      "c": "script"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "¿Dónde podemos usar el elemento 'style'?",
+    "answers": {
+      "a": "head",
+      "b": "body",
+      "c": "en ambos puede usarse"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "¿Qué etiqueta usarías para crear un hipervínculo?",
+    "answers": {
+      "a": "link",
+      "b": "a",
+      "c": "iframe",
+      "d": "Las tres anteriores son correctas"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "¿Cómo puede abrir el enlace en una nueva ventana?",
+    "answers": {
+      "a": "target= '_target'",
+      "b": "target= '_window'",
+      "c": "Ntarget= '_blank'",
+      "d": "target= '_new'"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "¿Cuál de estos elementos no debería ser hijo del elemento head ?",
+    "answers": {
+      "a": "title",
+      "b": "form",
+      "c": "meta",
+      "d": "link"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "¿Con cuál de estos elementos creamos una fila de tabla?",
+    "answers": {
+      "a": "trow",
+      "b": "tr",
+      "c": "td",
+      "d": "tl"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "¿ Con qué elemento podemos añadir una descripción opcional a  una tabla?",
+    "answers": {
+      "a": "caption",
+      "b": "description",
+      "c": "label",
+      "d": "figcaption"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "¿Cómo se escribe un comentario en html?",
+    "answers": {
+      "a": " // Ésto es un comentario ",
+      "b": " /* Ésto es un comentario */",
+      "c": "<!--Ésto es un comentario -->",
+      "d": "# Ésto es un comentario"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "¿Qué elemento debemos utilizar si queremos crear una lista ordenada?",
+    "answers": {
+      "a": "ul",
+      "b": "ol",
+      "c": "dl",
+      "d": "label"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "¿H6 es el encabezado de nivel superior ?",
+    "answers": {
+      "a": "verdadero",
+      "b": "falso"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "¿Cuál de estos elementos NO es un elemento de bloque?",
+    "answers": {
+      "a": "p",
+      "b": "span",
+      "c": "blockquote",
+      "d": "li"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "¿Qué elemento html muestra una imagen?",
+    "answers": {
+      "a": "figure",
+      "b": "iframe",
+      "c": "img",
+      "d": "image"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "¿Qué tipo de input se utiliza en un formulario para seleccionar una de múltiples opciones?",
+    "answers": {
+      "a": "text",
+      "b": "checkbox",
+      "c": "radio",
+      "d": "textarea"
+    },
+    "correctAnswer": "c"
+  },
+  {
+    "question": "¿Qué atributo del elemento img hace referencia a la localización de la imagen insertada?",
+    "answers": {
+      "a": "url",
+      "b": "location",
+      "c": "href",
+      "d": "src"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "¿ Cuál de estos elementos NO es vacío?",
+    "answers": {
+      "a": "hr",
+      "b": "br",
+      "c": "img",
+      "d": "strong"
+    },
+    "correctAnswer": "b"
+  },
+  {
+    "question": "¿Cuál de estos elementos inserta una nueva línea?",
+    "answers": {
+      "a": "br",
+      "b": "break",
+      "c": "hr",
+      "d": "lb  "
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "¿Cuál es el elemento para definir texto importante?",
+    "answers": {
+      "a": "b",
+      "b": "strong",
+      "c": "bold",
+      "d": "important"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "¿?",
+    "answers": {
+      "a": "Angular",
+      "b": "jQuery",
+      "c": "RequireJS",
+      "d": "ESLint"
+    },
+    "correctAnswer": "d"
+  },
+  {
+    "question": "¿?",
+    "answers": {
+      "a": "Arrays",
+      "b": "Booelanos",
+      "c": "Números"
+    },
+    "correctAnswer": "a"
+  },
+  {
+    "question": "¿?",
+    "answers": {
+      "a": "true",
+      "b": "false",
+      "c": "error"
+    },
+    "correctAnswer": "b"
+  }
+]

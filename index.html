@@ -7,20 +7,59 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="logo">
-      <a href="index.html"><img src="iconmonstr-home-10.svg"/></a>
-    </div>
     <h1>Quizzes de Autoevaluación</h1>
-    <h2>Desarrollo Web</h2>
-    <div class="quiz-container">
-      <p>Puedes acceder a los siguientes cuestionarios:</p>
-      <div id="quiz">
-        <ol class="lista-quiz">
-          <li><a href="q-html.html">HTML</a></li>
-          <li><a href="q-css.html">CSS</a></li>
-        </ol>
+
+    <div class="progreso">
+      <progress id="barraProgreso" value="" max="100"></progress>
+    </div>
+    <p>Puedes acceder a los siguientes cuestionarios:</p>
+    <!-- selector json -->
+    <div class="cuestionarios">
+      <div class="control-form">
+        <input
+          class="selector"
+          type="radio"
+          name="seleccion"
+          id="html"
+          value="./data/test-html-01.json"
+        />
+        <label for="html">html</label>
+      </div>
+      <div class="control-form">
+        <input
+          class="selector"
+          type="radio"
+          name="seleccion"
+          id="css"
+          value="./data/test-css-01.json"
+        />
+        <label for="css">CSS</label>
+      </div>
+      <div class="control-form">
+        <input
+          class="selector"
+          type="radio"
+          name="seleccion"
+          id="javascript"
+          value="./data/test-javascript-01.json"
+        />
+        <label for="javascript">javascript</label>
       </div>
     </div>
-    <p>Certificado de Desarrollo de Aplicaciones con tecnologías web</p>
+    <!-- fin selector-->
+    <div class="quiz-container">
+      <div id="quiz"></div>
+    </div>
+    <div class="botones" id="botones">
+      <button id="previous">&lt;&lt;</button>
+      <button id="next">&gt;&gt;</button>
+    </div>
+    <div class="botones">
+      <button id="submit">Evaluar</button>
+      <button id="reiniciar">Reiniciar</button>
+    </div>
+    <div id="results"></div>
+
+    <script src="script.js"></script>
   </body>
 </html>

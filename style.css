@@ -31,6 +31,8 @@ h1 {
   color: #fff;
 }
 .question {
+  color: #333;
+  font-weight: 400;
   font-size: 30px;
   margin-bottom: 10px;
 }
@@ -118,6 +120,7 @@ progress::-webkit-progress-value {
   color: #ece9cb;
 }
 .noticia {
+  padding: 1em;
   background-color: #ce5f2e;
 }
 .retro {
@@ -128,4 +131,26 @@ progress::-webkit-progress-value {
 .retro::before {
   font-weight: bolder;
   content: "Feedback >> ";
+}
+/*botones*/
+div.botones button {
+  display: none;
+}
+.cuestionarios div {
+  margin-top: 0.5em;
+  display: inline-block;
+}
+.cuestionarios input {
+  display: none;
+}
+.cuestionarios label {
+  background-color: whitesmoke;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  box-shadow: 5px 5px 12px black;
+  margin: 0.5em;
+}
+.cuestionarios input:checked + label {
+  border: solid 3px #51232f;
+  box-shadow: inset -3px -3px 3px #333;
 }
