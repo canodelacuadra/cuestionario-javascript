@@ -8,6 +8,20 @@ body {
   text-align: center;
   background-color: #f8f6f0;
 }
+.logo {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f8f6f0;
+}
+.logo img {
+  display: inline-block;
+  width: 80%;
+}
+.logo path {
+  color: red;
+}
 h1 {
   font-weight: 300;
   margin: 0px;
